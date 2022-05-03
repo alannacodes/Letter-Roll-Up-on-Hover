@@ -1,6 +1,6 @@
 :root {
-  --bg-color: seagreen;
-  --primary-clr: black;
+  --bg-color: #7380c4;
+  --primary-clr: #333333;
   --secondary-clr: white;
   --base-ff: "Source Sans Pro", sans-serif;
   --h2-fs: 2.25rem;
@@ -43,16 +43,16 @@ html, body {
   }
 }
 .grid__item:nth-child(even) {
-  background-color: #36a265;
+  background-color: #6d83df;
 }
 .grid__item:nth-child(3n) {
-  background-color: #2b8352;
+  background-color: #5e91d4;
 }
 .grid__item:nth-child(4n) {
-  background-color: #38aa6a;
+  background-color: #76afe5;
 }
 .grid__item:nth-child(5n) {
-  background-color: #267449;
+  background-color: #33459e;
 }
 
 h2 {
@@ -79,7 +79,7 @@ h2 {
 .letter-wrap__char {
   display: inline-block;
   position: relative;
-  text-transform: uppercase;
+  text-transform: none;
 }
 .letter-wrap__char-inner {
   display: inline-block;
